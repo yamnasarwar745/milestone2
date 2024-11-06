@@ -1,0 +1,66 @@
+/* styles.css */
+body {
+    font-family: Arial, Helvetica, sans-serif'Courier New', Courier, monospace;
+    font-size: large;
+    background-color: #8D0327;
+    margin:  30px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #D49A6A;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    color: beige;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    margin-top: 8px;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 29px;
+    padding: 15px; 
+    background-color:#8D0327;
+    color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    border: 10px #000000;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #053a10;
+}
+
+.resume {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    background-color:#ffffff ;
+}
